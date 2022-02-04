@@ -28,10 +28,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaa02b95-249f-4fc6-a76a-9fc5e45f4024" name="Default Changelist" comment="feat: Mapas, localizacao do usuario doador">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/Doe/UsuarioUnitTest.java" afterDir="false" />
+    <list default="true" id="eaa02b95-249f-4fc6-a76a-9fc5e45f4024" name="Default Changelist" comment="feat: add teste unitatrios do usuario">
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/Doe/DoacaoUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,23 @@
       <recent name="C:\Users\PICHAU\Desktop\Ajude-main\app\src\main\res\drawable" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.UsuarioUnitTest">
+  <component name="RunManager" selected="Android JUnit.DoacaoUnitTest">
+    <configuration name="DoacaoUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="login.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Doe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.Doe" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Doe.DoacaoUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="login.app" />
       <extension name="coverage">
@@ -244,6 +259,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.DoacaoUnitTest" />
         <item itemvalue="Android JUnit.UsuarioUnitTest" />
         <item itemvalue="Android JUnit.UsuarioUnitTest.testSetName" />
         <item itemvalue="Android JUnit.ExampleUnitTest" />
@@ -276,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643775624913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add teste unitatrios do usuario">
+      <created>1644005954796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644005954796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add localização do usuario automatico" />
     <MESSAGE value="feat: Mapas, localizacao do usuario doador" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Mapas, localizacao do usuario doador" />
+    <MESSAGE value="feat: add teste unitatrios do usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add teste unitatrios do usuario" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="163" key="#Gradle" timestamp="1643379829883">
@@ -333,22 +357,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="165" width="440" height="444" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1643921369205" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1644005821787">
+    <state width="1322" height="328" key="GridCell.Tab.0.bottom" timestamp="1644005905058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1644005821787" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1644005821787">
+    <state width="1322" height="328" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1644005905058" />
+    <state width="1322" height="328" key="GridCell.Tab.0.center" timestamp="1644005905058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1644005821787" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1644005821786">
+    <state width="1322" height="328" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1644005905058" />
+    <state width="1322" height="328" key="GridCell.Tab.0.left" timestamp="1644005905057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1644005821786" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1644005821787">
+    <state width="1322" height="328" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1644005905057" />
+    <state width="1322" height="328" key="GridCell.Tab.0.right" timestamp="1644005905058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1644005821787" />
+    <state width="1322" height="328" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1644005905058" />
     <state width="1322" height="178" key="GridCell.Tab.1.bottom" timestamp="1644005821662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
