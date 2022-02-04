@@ -19,7 +19,7 @@ jobs:
         java-version: 1.8
     #  Step para rodar testes unitários
     - name: Unit tests
-      run: chmod +x ./Projeto/gradlew && ./Projeto/gradlew test --stacktrace
+      run: ./gradlew test --stacktrace
   
   
    # Este Workflow contém um único Job chamado "build"
@@ -38,4 +38,4 @@ jobs:
       run: echo "y" | sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;20.0.5594570"
     # Step para Buildar o Projeto e gerar a APK
     - name: build debug apk
-      run: chmod +x ./Projeto/gradlew && ./Projeto/gradlew assembleDebug
+      run: ./gradlew assembleDebug
